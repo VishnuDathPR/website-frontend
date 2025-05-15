@@ -16,7 +16,7 @@ export default function HeroSection() {
    </div>
 
 
-      <div className=" scroll-section text-x1 md:text-3x1 lg:text-4x1 text-center px-4">
+      <div className="text-x1 md:text-3x1 lg:text-4x1 text-center px-4">
         
         <div className="absolute bottom-5 left-15 text-white font-medium text-[2rem] md:text-[4rem] lg:text-[4rem]">
         Revolutionize{" "} <br/>

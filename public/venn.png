@@ -1,0 +1,75 @@
+/* 66fbe84ab9ba40b4bafba4fd_connect.svg fill */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0.491228px;
+
+width: 56px;
+height: 36.47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Component 2 */
+
+width: 55.02px;
+height: 36.47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 34.25%;
+top: 0%;
+bottom: 0.8%;
+
+mix-blend-mode: difference;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 34.25%;
+top: 0%;
+bottom: 0.8%;
+
+/* www.addmore.be/White */
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 34.25%;
+right: 0%;
+top: 0%;
+bottom: 0.8%;
+
+mix-blend-mode: difference;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.25%;
+right: 0%;
+top: 0%;
+bottom: 0.8%;
+
+/* www.addmore.be/White 64% */
+background: rgba(255, 255, 255, 0.64);

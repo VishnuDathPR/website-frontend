@@ -19,8 +19,8 @@ export default function Navbar() {
           <Img src= "/oxiumlogo.png"
           alt="logo background" 
           width= {103}
-           height= {24.24}
-           className="relative top-[21.38px] left-[30px]"
+           height= {12}
+           className="relative top-[10px] left-[30px]"
 
           />
         </div>

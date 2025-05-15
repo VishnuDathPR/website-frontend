@@ -1,13 +1,13 @@
 import { ArrowRight } from "lucide-react";
 export default function Connect() {
     return ( 
-    <div className="relative min-h-screen"style={{backgroundColor: "black" }}>
-        <div className="relative flex flex-col justify-center items-center left-20 w-[56px] h-[36.47px] p-[0.49px] z-10">
+    <div className=" scroll-contain relative min-h-screen"style={{backgroundColor: "black" }}>
+        {/* <div className="relative flex flex-col justify-center items-center left-250 w-[56px] h-[36.47px] p-[0.49px] mt-4  z-10">
   <div className="absolute left-0 top-0 bottom-[0.8%] right-[34.25%] mix-blend-difference bg-white"></div>
   <div className="absolute left-[34.25%] top-0 bottom-[0.8%] right-0 mix-blend-difference bg-white/64"></div>
-</div>
+</div> */}
 
-        <div className="flex py-20 text-white font-sm text-[6rem] justify-center items-center text-center">Connecting <br/>
+        <div className=" scroll-section flex py-20 text-white font-sm text-[6rem] justify-center items-center text-center">Connecting <br/>
         ++ product and people</div>
             <div className=" mt-2 w-full h-[1px] bg-gray-200"></div>
             <div className="relative flex justify-between px-20 gap-10 mt-10">

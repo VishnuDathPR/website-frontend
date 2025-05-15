@@ -10,15 +10,15 @@ import Img from 'next/image';
 export default function HeroSection() {
   return ( 
   <div>
-   <div className="relative w-full h-[600px]">
+   <div className="relative scroll-contain w-full h-[600px]">
      <Img src= "/herog-bg.jpg" alt="Hero Background" layout="fill" objectFit="cover"
           />
    </div>
 
 
-      <div className=" text-x1 md:text-3x1 lg:text-5x1 text-center px-4">
+      <div className=" scroll-section text-x1 md:text-3x1 lg:text-4x1 text-center px-4">
         
-        <div className="absolute bottom-20 left-15 text-white font-medium text-[2rem] md:text-[4rem] lg:text-[5rem]">
+        <div className="absolute bottom-5 left-15 text-white font-medium text-[2rem] md:text-[4rem] lg:text-[4rem]">
         Revolutionize{" "} <br/>
         <span className="bg-white text-black px-2 py-0.5 rounded">
           technology
@@ -27,9 +27,9 @@ export default function HeroSection() {
         </p>
         
       </div>
-        <div className=" text-25x1 absolute bottom-31 right-8">
+        <div className=" text-25x1 absolute bottom-8 right-6">
           <p className="text-lg md:text-xl lg:text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br> I
-          psa tenetur dolores enim iure, animi aliquid earum reiciendis id quas eum!
+           animi aliquid earum reiciendis id quas eum!
           </p> 
           <br />
             

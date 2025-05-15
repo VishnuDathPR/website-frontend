@@ -19,6 +19,23 @@
   }
 }
 
+html {
+  scrollbar-width: smooth;
+}
+/* Example container */
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* Each section */
+.scroll-section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+
 
 
 body {

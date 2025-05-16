@@ -5,6 +5,7 @@ export default function Vision() {
 <div className="relative min-h-screen" style={{ backgroundColor: "rgba(243, 245, 232, 1)" }}>
       {/* Optional Navbar */}
       <nav className="bg-white px-6 py-9 shadow-md"></nav>
+      items =
 
       {/* Vertical Lines */}
       <div className="absolute inset-0 z-0 flex justify-between px-[10%] py-[6%]  pointer-events-none">
@@ -38,11 +39,11 @@ export default function Vision() {
             <p className="z-10"> take a look at diverse <br/> challenges we have solved</p>
         </div>
       </div>
-    <div className="flex px-20 py-30 gap-25 items-center">
+    <div className="flex px-20 py-20 gap-20 items-center">
       <div className="flex flex-col align-items:start">
-        {["Option One", "Option Two", "Option Three", "Option Four"].map((option, index) => (
+        {["Automated human", "Option Two", "Option Three", "Option Four"].map((option, index) => (
     <div key={index} className="relative group text-black py-5 cursor-pointer w-fit hover:font-bold">
-      <span className="transition-all duration-200 group-hover:w-full">{option} </span>
+      <span className="inline-block transition-all duration-200 w-full">{option} </span>
       <span className="absolute left-0 -bottom-0.5 h-[2px] w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
      </div>
         ))}<div className="py-8 mt-4">
@@ -51,34 +52,36 @@ export default function Vision() {
         </div>
   {/* <div className="px-20 py-10 items-center"> */}
       {/* Image Container Box */}
-      <div className="relative left-0.5 w-full max-w-3xl h-[400px] rounded-lg overflow-hidden shadow-lg">
+      <div className="relative gap-20 left-0.5 w-[900px] h-[350px] rounded-lg overflow-hidden shadow-lg mr-10">
         {/* Background Image */}
         <Img
           src="/red-bg.jpg"
           alt="Vision Background"
-          width={300}
-          height={414}
-          objectFit="contain"
-          layout="intrinsic"
-          objectPosition="center"
-
-          className=" inset-0rounded-lg shadow-lg w-full"
+           layout="fill"
+        
+          className=" w-[900px] h-[350px] rounded-lg shadow-lg"
+          
+          priority
           />
           
 
         {/* Top-Left Text */}
         <div className="absolute top-4 left-4 z-10 text-gray-200 text-xl font-semibold">
-          Our Vision
+        <div>
+          Machine learning for recipe recommendation
+        </div>
+        <div className=" mt-4 text-gray-400">Building an NLP-based system to understand <br /> cooking ingredients and refine user's dishes</div>
         </div>
 
         {/* Bottom-Left Button */}
-        <div className="absolute bottom-4 left-4 z-10 text-black font-medium px-4 py-2 rounded-lg shadow-md shadow-white  shadow-[0_4px_rgba(255,255,255,0.2),_0_0_0_4px_rgba(255,255,255,0.1)]
-
- transition-all duration-300 hover:-translate-y-2 hover:-translate-x-1 hover:scale-[0.97] hover:bg-white hover:border bg-opacity-5 shadow-md">
-          <button className="bg-white text-black px-4 py-2 flex items-center rounded-md shadow hover:bg-white-200 transition">
-            Learn More
-             <ArrowRight className="relative gap-3 right-3 left-3 top-0.2 rotate-300 text-black text-lg " />
-          </button>
+        <div className="absolute bottom-4 left-4 z-10 group">
+  <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 bg-white/30 transition-opacity duration-300 z-0"></div>
+         <button className="relative z-10 inline-flex items-center gap-1 bg-white text-black font-medium px-6 py-2 rounded-lg shadow-md
+    transition-all duration-300
+    hover:-translate-y-2 hover:-translate-x-1 hover:scale-[0.97]">
+          Read case study<span>{"   "}</span>
+          <ArrowRight className="relative bottom-0.5 right-2 left-3 top-0.7 rotate-300 text-black text-lg " />
+        </button>
         </div>
         </div>
       {/* </div> */}

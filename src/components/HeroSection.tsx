@@ -32,14 +32,16 @@ export default function HeroSection() {
            animi aliquid earum reiciendis id quas eum!
           </p> 
           <br />
-            
-        <button className="group inline-flex items-center gap-2 bg-white text-black font-medium px-6 py-3 rounded-lg shadow-md shadow-white  shadow-[0_4px_rgba(255,255,255,0.2),_0_0_0_4px_rgba(255,255,255,0.2)]
-
- transition-all duration-300 hover:-translate-y-2 hover:-translate-x-1 hover:scale-[0.97] hover:bg-white -md ">
-          View Case Studies<span>{"   "}</span>
+            <div className="relative group inline-block">
+        <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 bg-white/30 transition-opacity duration-300 z-0"></div>
+            <button className="relative z-10 inline-flex items-center gap-1 bg-white text-black font-medium px-6 py-2 rounded-lg shadow-md
+    transition-all duration-300
+    hover:-translate-y-2 hover:-translate-x-1 hover:scale-[0.97]">
+          find your solution<span>{"   "}</span>
           <ArrowRight className="relative bottom-0.5 right-2 left-3 top-0.7 rotate-300 text-black text-lg " />
         </button>
-      </div>
+        </div>
+            </div>
       </div>
       </div>
  

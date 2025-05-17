@@ -40,7 +40,7 @@ export default function CaseStudy () {
 
       {/* Navigation */}
       <div className="pt-6 flex justify-between items-center">
-        <div className="space-x-2">
+        <div className="space-x-6">
           <button className="bg-black border border-white px-4 py-2 rounded-md">← Prev</button>
           <button className="bg-black border border-white px-4 py-2 rounded-md">Next →</button>
         </div>

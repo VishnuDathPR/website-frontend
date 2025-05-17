@@ -17,6 +17,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center w-full">
         {/* Logo */}
         <div className="flex items-center">
+           <a href="/">
           <Image
             src="/oxiumlogo.png"
             alt="logo"
@@ -24,6 +25,7 @@ export default function Navbar() {
             height={24}
             priority
           />
+         </a>
         </div>
 
         {/* Navigation Menu (hidden on small screens) */}
@@ -31,7 +33,7 @@ export default function Navbar() {
           {menuItems.map((item) => (
             <li key={item}>
               <a
-                href={`#${item.toLowerCase().replace(" ", "-")}`}
+                href={`/${item.toLowerCase().replace(" ", "-")}`}
                 className="relative group"
               >
                 <span className="transition-colors duration-200">

@@ -13,8 +13,8 @@ export default function CaseStudy() {
           </h2>
             </div>
           <div className="mt-[100px]">
-          <p className="text-sm text-gray-400 pt-6 max-w-sm">
-            <span className="inline-block w-2 h-2 border border-white rounded-full mr-3 mt-1"></span>
+          <p className="text-sm text-gray-300 pt-6 max-w-sm">
+            <span className="inline-block w-2 h-2 border border-white rounded-full mr-2 mt-1"></span>
              We help your target audience see, understand, and trust the value your SaaS product delivers.
           </p>
           </div>

@@ -18,7 +18,7 @@ export default function Transcend() {
         {/* Content Overlay */}
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <div className="text-white text-4xl font-bold">
+            <div className="text-white font-grotesk text-4xl font-bold">
               <Image 
               src="/clock.png"
               alt="transcend"

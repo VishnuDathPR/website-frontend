@@ -15,7 +15,7 @@ export default function Work() {
           </p>{" "}
           do
         </div>
-        <div className="text-gray-400 max-w-md pr-10">
+        <div className="text-gray-400 max-w-md pr-10 font-grotesk">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quia
           libero sint ea a quam quod unde porro enim consectetur illo veritatis
           repellendus culpa. Consequatur excepturi fugiat cupiditate dolorum

@@ -24,7 +24,7 @@ export default function Transcend() {
               alt="transcend"
               width={30}
               height={20}
-              className="ml-[380px] mb-8"
+              className="ml-[380px] mb-8 font-grotesk"
                />
               Transcending time with <br /> technology
             </div>

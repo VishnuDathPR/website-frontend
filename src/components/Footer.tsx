@@ -5,12 +5,9 @@ import HeroSection from './HeroSection';
 export default function Footer() {
   return (
     <div className="relative min-h-screen bg-[#f3f5e8] flex flex-col items-center justify-center px-6 py-12">
-      {/* Image Section */}
-      
-
-      {/* Footer Content */}
+     
       <div className="grid grid-cols-4 gap-10 w-full max-w-6xl text-black">
-        {/* Address and Contact */}
+       
         <div className="flex flex-col items-start px-3 gap-6 text-sm">
           <div className="flex items-start gap-2 ">
             <MapPinIcon className="w-5 h-5 mt-2 text-gray-500" />
@@ -77,7 +74,7 @@ export default function Footer() {
         <p><a href="https://www.linkedin.com/company/oxium-tech-consultancy/" target="_blank" rel="noopener noreferrer">• OXIUM TECH CONSULTANCY</a></p>
         <p><a href="/rightsreserved">• ALL RIGHTS RESERVED </a></p>
         <p><a href="/privacypolicy">• PRIVACY POLICY </a></p>
-        <p>• DESIGNED AND DEVELOPED IN-HOUSE</p>
+        <p><a href="/team">• DESIGNED AND DEVELOPED IN-HOUSE</a></p>
       </div>
     </div>
   );

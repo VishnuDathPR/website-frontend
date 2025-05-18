@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Image from 'next/image';
 export default function Transcend() {
   return (
     <div className="relative min-h-screen" style={{ backgroundColor: "black" }}>
@@ -18,6 +19,13 @@ export default function Transcend() {
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
             <div className="text-white text-4xl font-bold">
+              <Image 
+              src="/clock.png"
+              alt="transcend"
+              width={30}
+              height={20}
+              className="items-center"
+               />
               Transcending time with <br /> technology
             </div>
             <div className="mt-10 gap-10 text-white text-lg font-normal max-w-7xl mx-auto">

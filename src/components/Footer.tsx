@@ -31,8 +31,8 @@ export default function Footer() {
         </div>
 
         {/* Links */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-lg ">LINKS</h2>
+        <div className="flex  flex-col gap-3">
+          <h2 className="text-lg relative font-sm hover:font-bold after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-[55px]">LINKS</h2>
           <div className="flex flex-col gap-1 text-sm">
             <a href="/about">About</a>
             <a href="/team">Team</a>
@@ -43,8 +43,8 @@ export default function Footer() {
         </div>
 
         {/* Compliance */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-lg ">COMPLIANCE</h2>
+        <div className="flex  flex-col gap-3">
+          <h2 className="text-lg relative font-sm hover:font-bold after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-[122px]">COMPLIANCE</h2>
           <div className="flex flex-col gap-1 text-sm">
             <a href="/terms&conditions">Terms and Conditions</a>
             <a href="/privacypolicy">Privacy Policy</a>
@@ -52,8 +52,8 @@ export default function Footer() {
         </div>
 
         {/* Socials */}
-        <div className="flex flex-col gap-3">
-          <h2 className="text-lg ">SOCIALS</h2>
+        <div className="flex  flex-col gap-3">
+          <h2 className="text-lg relative font-sm hover:font-bold after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-[80px]">SOCIALS</h2>
           <div className="flex flex-col gap-1 text-sm">
             <a href="https://www.linkedin.com/company/oxium-energy" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>

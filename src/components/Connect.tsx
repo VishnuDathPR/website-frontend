@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Image from 'next/image';
 export default function Connect() {
     return ( 
     <div className="relative min-h-screen"style={{backgroundColor: "black" }}>
@@ -6,6 +7,14 @@ export default function Connect() {
   <div className="absolute left-0 top-0 bottom-[0.8%] right-[34.25%] mix-blend-difference bg-white"></div>
   <div className="absolute left-[34.25%] top-0 bottom-[0.8%] right-0 mix-blend-difference bg-white/64"></div>
 </div> */}
+            <nav className="px-3 py-8"></nav>
+         
+            <Image 
+            src="/venn.png"
+            alt="Venn diagram"
+            width={50}
+            height={50}
+            className="absolute right-20 z-10 mr-5" />
 
         <div className="flex py-20 px-30 text-white font-sm text-[4rem] items-start" style={{ fontFamily: 'Space Grotesk, sans-serif' }}>Connecting <br/>
         ++ product and people</div>

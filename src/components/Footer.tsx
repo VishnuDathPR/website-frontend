@@ -69,7 +69,7 @@ export default function Footer() {
         />
       </div>
 
-      {/* Bottom Line (Optional) */}
+      
       <div className=" flex justify-evenly text-xs text-gray-500 mt-10 gap-36">
         <p><a href="https://www.linkedin.com/company/oxium-tech-consultancy/" target="_blank" rel="noopener noreferrer">• OXIUM TECH CONSULTANCY</a></p>
         <p><a href="/rightsreserved">• ALL RIGHTS RESERVED </a></p>

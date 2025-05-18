@@ -3,12 +3,12 @@ import { ArrowRight } from "lucide-react";
 export default function Vision() {
   return (
 <div className="relative min-h-screen" style={{ backgroundColor: "rgba(243, 245, 232, 1)" }}>
-      {/* Optional Navbar */}
-      <nav className="bg-white px-6 py-9 shadow-md"></nav>
-      items =
+      
+      <nav className="bg-white px-6 py-7 "></nav>
+      
 
-      {/* Vertical Lines */}
-      <div className="absolute inset-0 z-0 flex justify-between px-[10%] py-[6%]  pointer-events-none">
+      
+      <div className="absolute inset-0 z-0 flex justify-between px-[10%] py-[4.5%]  pointer-events-none">
         <div className="w-[1px] h-[40%] bg-gray-300 z-0"></div>
         <div className="w-[1px] h-[50%] bg-gray-300"></div>
         <div className="w-[1px] h-[45%] bg-gray-300 z-0"></div>
@@ -19,7 +19,7 @@ export default function Vision() {
       
 
 
-      {/* Centered Text */}
+      
       <div className="flex items-center justify-center min-h-[calc(100vh-80px)] z-20 px-4">
         <div className="absolute left-15">
         <div className=" flex items-start gap-5 bg-black text-white text-sm px-3 py-1 rounded-md cursor-pointer w-fit">
@@ -50,10 +50,9 @@ export default function Vision() {
         <button className="inline-flex items-center rounded-lg px-6 py-3 text-black border border-black bg-[#F3F5E8] whitespace-nowrap text-base">Show all case study</button>
         </div>
         </div>
-  {/* <div className="px-20 py-10 items-center"> */}
-      {/* Image Container Box */}
+  
       <div className="relative gap-20 left-0.5 w-[900px] h-[350px] rounded-lg overflow-hidden shadow-lg mr-10">
-        {/* Background Image */}
+        
         <Img
           src="/red-bg.jpg"
           alt="Vision Background"
@@ -65,7 +64,7 @@ export default function Vision() {
           />
           
 
-        {/* Top-Left Text */}
+        
         <div className="absolute top-4 left-4 z-10 text-gray-200 text-xl font-semibold">
         <div>
           Machine learning for recipe recommendation
@@ -73,7 +72,7 @@ export default function Vision() {
         <div className=" mt-4 text-gray-400">Building an NLP-based system to understand <br /> cooking ingredients and refine user's dishes</div>
         </div>
 
-        {/* Bottom-Left Button */}
+        
         <div className="absolute bottom-4 left-4 z-10 group">
   <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 bg-white/30 transition-opacity duration-300 z-0"></div>
          <button className="relative z-10 inline-flex items-center gap-1 bg-white text-black font-medium px-6 py-2 rounded-lg shadow-md

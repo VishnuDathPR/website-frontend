@@ -18,20 +18,20 @@ export default function Transcend() {
         {/* Content Overlay */}
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center">
-            <div className="text-white font-grotesk text-4xl font-bold">
+            <div className="text-white text-6xl space-y-4 font-bold ">
               <Image 
               src="/clock.png"
               alt="transcend"
               width={30}
               height={20}
-              className="items-center"
+              className="ml-[380px] mb-8"
                />
               Transcending time with <br /> technology
             </div>
             <div className="mt-10 gap-10 text-white text-lg font-normal max-w-7xl mx-auto">
               Addmore helps to ensure that your product connects with the right users, driving the growth for you.
             </div>
-            <div className="mt-4 group inline-block relative rounded-lg transition-all duration-300">
+            <div className="mt-8 group inline-block relative rounded-lg transition-all duration-300">
                 <div className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 bg-white/30 transition-opacity duration-300 z-0"></div>
             <button className="relative z-10 inline-flex items-center bg-white text-black font-medium px-5 py-2 rounded-lg shadow-md
     transition-all duration-300

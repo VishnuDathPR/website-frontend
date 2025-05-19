@@ -1,5 +1,6 @@
 // components/Navbar.jsx
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Navbar() {
   const menuItems = [
@@ -17,7 +18,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center w-full">
         {/* Logo */}
         <div className="flex items-center">
-           <a href="/">
+           <Link href="/">
           <Image
             src="/oxiumlogo.png"
             alt="logo"
@@ -25,7 +26,7 @@ export default function Navbar() {
             height={24}
             priority
           />
-         </a>
+         </Link>
         </div>
 
         {/* Navigation Menu (hidden on small screens) */}

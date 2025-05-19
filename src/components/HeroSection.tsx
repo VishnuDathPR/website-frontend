@@ -28,7 +28,7 @@ export default function HeroSection() {
         
       </div>
         <div className=" text-25x1 absolute bottom-8 right-6">
-          <p className="text-lg md:text-xl lg:text-2xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br> I
+          <p className="text-lg md:text-xl lg:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br> I
            animi aliquid earum reiciendis id quas eum!
           </p> 
           <br />

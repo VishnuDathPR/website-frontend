@@ -1,4 +1,4 @@
-import Img from "next/image";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 export default function Vision() {
   return (
@@ -22,8 +22,12 @@ export default function Vision() {
       
       <div className="flex items-center justify-center min-h-[calc(100vh-80px)] z-20 px-4">
         <div className="absolute left-15">
-        <div className=" flex items-start gap-5 bg-black text-white text-sm px-3 py-1 rounded-md cursor-pointer w-fit">
-      <img src="/eye.svg" alt="Eye icon" className="w-4 h-4 bg-white" />
+        <div className=" flex items-start gap-3 bg-black text-white text-sm px-3 py-2 rounded-md cursor-pointer w-fit">
+      <Image src="/eye.png"
+       alt="Eye icon" 
+       width={40} 
+       height={5}
+       className="w-5 h-4 mt-[2px] bg-black" />
       <span>Vision</span>
         </div>
      </div>
@@ -53,7 +57,7 @@ export default function Vision() {
   
       <div className="relative gap-20 left-0.5 w-[900px] h-[350px] rounded-lg overflow-hidden shadow-lg mr-10">
         
-        <Img
+        <Image
           src="/red-bg.jpg"
           alt="Vision Background"
            layout="fill"

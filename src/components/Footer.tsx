@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid';
-import HeroSection from './HeroSection';
+
 
 export default function Footer() {
   return (

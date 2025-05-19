@@ -73,7 +73,7 @@ export default function Vision() {
         <div>
           Machine learning for recipe recommendation
         </div>
-        <div className=" mt-4 text-gray-400">Building an NLP-based system to understand <br /> cooking ingredients and refine user's dishes</div>
+        <div className=" mt-4 text-gray-400">Building an NLP-based system to understand <br /> cooking ingredients and refine user&apos;s dishes</div>
         </div>
 
         
